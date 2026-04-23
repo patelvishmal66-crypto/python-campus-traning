@@ -97,7 +97,7 @@ print(lst,"\n",lst1,"\n",lst2)
 
 lst=[2,3,4,5,6,4,3]
 lst1=["even" if i%2==0 else"odd" for i in lst]
-print(lst1)
+print(lst1) 
 
 
 
@@ -118,6 +118,12 @@ print(lst1)
 
 
 
+
 lst = [[1,2,4,5],[3,5,4,3],[4,5,3,2]]
 lst1=[sum(i)for i in lst]
 print
+
+
+
+
+
