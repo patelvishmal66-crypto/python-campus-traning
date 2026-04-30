@@ -10,7 +10,7 @@ print(x)
 # x+="H1"
 # print(l)
 #x="hello"
-#----------x-----------x--------x--------x-----
+#----------x-----------x--------x--------x--- -----
 # Q1. Write a Python program to reverse the order of words in a given 
 # string without reversing the individual words. 
 # Input: "Hello World from Python" 
@@ -59,7 +59,7 @@ print(x)
 # Q3. Write a Python program to find all unique characters in a given 
 # string. 
 # Input: "programming" 
-# # Output: ['p', 'o', ')r', 'g', 'a', 'm', 'i', 'n']
+# # Output: ['p', 'o', 'r', 'g', 'a', 'm', 'i', 'n']
 # x="programming"
 # unique_chars = list(set(x))
 # print(unique_chars)
@@ -75,5 +75,6 @@ letter='t'
 words = x.split()
 count = sum(1 for word in words if word.startswith(letter))
 print(count)
+
 
  
